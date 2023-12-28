@@ -30,7 +30,7 @@ int main(){
     v.emplace(v.end(),32);
 
     // v = {50,5,8,7,9,20,32};
-
+    
     v.swap(v1);
 
     // v = {2,2,2,2,2};
@@ -52,6 +52,23 @@ int main(){
     // v = {}
 
     cout<<v.empty()<<endl; // prints 1
-
-
+    
+    // v.push_back(5);
+    // v.push_back(8);
+    // v.push_back(7);
+    // v.push_back(5);
+    // cout<<"The simple way: ";
+    // for (int i=0;i<v.size();i++){
+    //     cout<< v[i]<<" ";
+    // }
+    // cout<<endl;
+    // cout<<"Using iterators: ";
+    // for (auto it = v.begin();it<v.end();it++){
+    //     cout<<*(it)<<" ";
+    // }
+    // cout<<endl;
+    // cout<<"Using for each loop: ";
+    // for (auto it : v){
+    //     cout<<it<<" ";
+    // }
 }
