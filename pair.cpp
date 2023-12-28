@@ -15,8 +15,8 @@ int main(){
     cout<<"This is p: "<<p.first<< " "<<p.second<<endl;
 
 
-    pair<int ,pair<int,int>> c={1,{1,2}};
-    cout<<"This is c: "<<c.first<<" "<<c.second.first<<" "<<c.second.second;
+    pair<int ,pair<int,int>> c={1,{1,2}};// 1-> {1,2}
+    cout<<"This is c: "<<c.first<<" "<<c.second.first<<" "<<c.second.second<<endl;
 
 
     pair<int,int> arr[]={{1,2},{3,5},{5,600}};
