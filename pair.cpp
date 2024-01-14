@@ -5,7 +5,12 @@ int main(){
 
     cout<<"This is p: "<<p.first<< " "<<p.second<<endl;
 
+    pair<int,int> p2;
+    p2 = make_pair(10,20);
+
+    cout<< "This is p2: "<< p2.first<<" "<<p2.second<<endl;
     pair<int,int> p1 = {1,2};
+    
 
     cout<<"This is p1: "<<p1.first<< " "<<p1.second<<endl;
 
